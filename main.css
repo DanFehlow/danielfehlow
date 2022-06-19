@@ -1,0 +1,331 @@
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+  background-color: #1b1b1b;
+  text-decoration: none;
+}
+
+.menu-itens {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  margin: 0px 0px 0px 180px;
+  font-size: 20px;
+  margin-top: 15px;
+  color: #ffffff;
+  font-family: "Roboto Slab";
+}
+
+.menu-itens li,
+.menu-itens a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container,
+.worked {
+  background-color: black;
+  height: 70rem;
+}
+
+.name {
+  color: #ffffff;
+  font-family: "Roboto Slab";
+  font-weight: 800;
+  font-size: 44px;
+}
+
+.wrapper {
+  position: relative;
+  max-width: 65rem;
+  display: inline-block;
+  flex-direction: row;
+  width: 85%;
+  margin: 120px 0px 0px 180px;
+  justify-content: space-between;
+  padding-top: 131px;
+}
+
+p,
+.titles {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Roboto Slab";
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 30px;
+}
+
+#image-perfil {
+  max-width: 353vh;
+  max-height: 365px;
+  left: 130%;
+  top: 80px;
+  position: absolute;
+  border-radius: 50%;
+  display: inline-block;
+  flex-direction: row;
+}
+
+.button-start {
+  position: absolute;
+  color: #ffffff;
+  width: 307.89px;
+  height: 63px;
+  background-color: rgba(98, 186, 27, 1);
+  font-family: "Roboto Slab";
+  font-size: 20px;
+  margin-top: 10rem;
+  box-shadow: 0px 8px 30px rgba(63, 142, 0, 0.5);
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.2s ease;
+  font-weight: 500;
+}
+
+.button-start:hover {
+  background-color: rgba(63, 142, 0, 0.5);
+}
+
+.content {
+  background-color: #ffffff;
+  height: 115rem;
+}
+
+.topics {
+  color: #1b1b1b;
+  font-family: "Roboto Slab";
+  font-weight: 800;
+  font-size: 44px;
+}
+
+.description {
+  color: #1b1b1b;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Roboto Slab";
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 30px;
+}
+
+#logo-hardware {
+  position: relative;
+  border-radius: 50%;
+  margin-top: 5rem;
+  width: 200px;
+  height: 200px;
+}
+
+#logo-technologies {
+  position: relative;
+  margin-top: 5rem;
+  width: 200px;
+  height: 200px;
+}
+
+#logo-react {
+  position: relative;
+  width: 200px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.studies-description {
+  position: absolute;
+  margin-top: 8rem;
+  padding-left: 20px;
+  font-family: "Roboto Slab";
+  font-size: 20px;
+}
+
+.projects {
+  display: flex;
+  position: relative;
+  display: inline-block;
+  flex-direction: row;
+}
+
+.worked {
+  height: 150rem;
+}
+
+.titles {
+  margin-bottom: 2rem;
+}
+
+#projects-images {
+  position: relative;
+  width: 50rem;
+  margin-right: 2rem;
+  border-radius: 0.6rem;
+  transition: 0.5s all;
+}
+
+#icons:hover {
+  transform: scale(1.01);
+}
+
+.wrapper-projects {
+  position: relative;
+  display: inline-block;
+  flex-direction: row;
+  width: 85%;
+  margin: 120px 0px 0px 180px;
+  justify-content: space-between;
+  padding-top: 131px;
+}
+
+#icons {
+  position: relative;
+  width: 8rem;
+  transition: 0.5s all;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.clients {
+  position: relative;
+  width: 100%;
+  height: 12rem;
+  top: 370px;
+  margin: 0px 0px 0px 180px;
+}
+
+.clients-images {
+  width: 110px;
+  margin-left: 10rem;
+}
+
+.even-image {
+  width: 140px;
+  margin-left: 10rem;
+  padding-bottom: 30px;
+}
+
+#logo-bmw,
+#logo-henkel,
+#logo-even,
+#logo-toyota,
+#logo-vwb {
+  position: relative;
+}
+
+.getintouch {
+  height: 50rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .wrapper,
+  .clients,
+  .wrapper-projects {
+    position: relative;
+    margin: 120px 0px 0px 30px;
+  }
+
+  .menu-container {
+    width: 245%;
+  }
+
+  .menu-itens {
+    position: relative;
+    left: -158px;
+  }
+
+  .worked {
+    position: relative;
+    height: 50rem;
+  }
+
+  .clients {
+    top: 14rem;
+  }
+  #projects-images {
+    width: 45rem;
+  }
+
+  .container,
+  .content {
+    width: 245%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .wrapper,
+  .clients,
+  .wrapper-projects {
+    position: relative;
+    margin: 120px 0px 0px 30px;
+  }
+  #projects-images {
+    width: 40rem;
+  }
+  .menu-container {
+    width: 53.7rem;
+  }
+  .menu-itens {
+    position: relative;
+    left: -158px;
+  }
+  .clients {
+    top: 14rem;
+  }
+  .container,
+  .worked {
+    position: relative;
+    width: 100%;
+  }
+  .container,
+  .worked {
+    position: relative;
+    width: 100%;
+  }
+  .menu-container {
+    width: 100%;
+  }
+  .menu-itens {
+    position: relative;
+    left: -158px;
+  }
+  .worked {
+    height: 50rem;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  #image-perfil {
+    position: absolute;
+    top: -3rem;
+    width: 200px;
+    height: 200px;
+    left: 80%;
+  }
+  .worked {
+    position: relative;
+    height: 235rem;
+  }
+
+  .projects img {
+    position: relative;
+    margin-top: 1rem;
+  }
+  .clients {
+    position: relative;
+    width: 87%;
+  }
+  .clients-images {
+    width: 80px;
+    margin-left: 2rem;
+  }
+
+  .even-image {
+    width: 80px;
+    margin-left: 2rem;
+    padding-bottom: 30px;
+  }
+}
